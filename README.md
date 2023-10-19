@@ -46,9 +46,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **The app receives a message written in Morse code.**
-- **It separates the words and characters in each word to decode one by one.**
-- **It assembles back the message decoded into English and prints it out.**
+- **The app implements three methods for enumerables.**
+- **It uses class and module concepts.**
+- **It implements enumerable methods according to this reference...**
+- [Enumerable](https://ruby-doc.org/core-3.0.0/Enumerable.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +74,6 @@ Clone this repository to your desired folder by running the following commands i
 
 In order to run this project you need:
 
-- A modern web browser (Chrome, Firefox, Safari, Edge).
 - An IDE (e.g.: Vscode, Sublime Text,...).
 - Install Ruby
 - A terminal (Ruby).
@@ -162,7 +162,7 @@ Run rubocop on your VS Code terminal.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- We can adapt this code to use on a web app for decoding Morse codes.
+- We can adapt this code to use on a web app for implementing enumerable methods.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
