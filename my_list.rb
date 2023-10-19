@@ -3,11 +3,11 @@ class MyList
 
   include MyEnumerable
 
-  def initialize(list)
-    @list = list
+  def initialize(*args)
+    @list = args
   end
 
   def each(&block)
-    @list.each(&block)
+    @list.each { |element| block.call(element) }
   end
 end
